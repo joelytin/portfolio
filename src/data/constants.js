@@ -365,7 +365,7 @@ export const projects = [
     description:
       "Created a clone of the YouTube homepage using HTML and CSS.",
     image:
-      "https://github.com/joelytin/youtube-home-clone/blob/main/youtube-clone-screenshot.png?raw=true",
+      "https://github.com/joelytin/youtube-home-clone/blob/master/youtube%20clone%20screenshot.png?raw=true",
     tags: [
       "HTML",
       "CSS",
