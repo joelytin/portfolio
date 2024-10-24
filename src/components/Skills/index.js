@@ -60,21 +60,39 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 0.1px solid ${({ theme }) => theme.primary}; // Use theme's primary color for the border
+  box-shadow: ${({ theme }) => `rgba(${theme.primary}, 0.15) 0px 4px 24px`}; // Adjust the box-shadow color to match the theme
   border-radius: 16px;
   padding: 18px 36px;
+  
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
   }
+  
   @media (max-width: 500px) {
     max-width: 330px;
     padding: 10px 36px;
   }
+`;
 
-
-`
+// const Skill = styled.div`
+//   width: 100%;
+//   max-width: 500px;
+//   background: ${({ theme }) => theme.card};
+//   border: 0.1px solid #854CE6;
+//   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+//   border-radius: 16px;
+//   padding: 18px 36px;
+//   @media (max-width: 768px) {
+//     max-width: 400px;
+//     padding: 10px 36px;
+//   }
+//   @media (max-width: 500px) {
+//     max-width: 330px;
+//     padding: 10px 36px;
+//   }
+// `
 
 const SkillTitle = styled.h2`
   font-size: 28px;
