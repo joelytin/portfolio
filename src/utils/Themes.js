@@ -1,14 +1,14 @@
 export const darkTheme = {
-    bg:"#1C1C27",
-    bgLight: "#1C1E27",
-    primary:"#854CE6", // role
-    text_primary:"#F2F3F4", // white
-    text_secondary:"#b1b2b3", // light grey
-    card:"#171721", // card background
-    card_light: '#191924', // header background
-    button:"#854CE6",
-    white:"#FFFFFF",
-    black:"#000000",
+    bg: "#121212", // Darker background
+    bgLight: "#1E1E1E", // Slightly lighter background
+    primary: "#FF6F61", // Primary color for highlights (soft coral)
+    text_primary: "#EDEDED", // Off-white text
+    text_secondary: "#A3A3A3", // Muted grey text
+    card: "#1A1A1A", // Card background (darker grey)
+    card_light: "#2A2A2A", // Header background (dark grey)
+    button: "#FF6F61", // Button color matches primary
+    white: "#FFFFFF",
+    black: "#000000",
 }
 
 export const lightTheme = {
