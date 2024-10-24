@@ -99,7 +99,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Joely Tin. All rights reserved.
+          &copy; 2024 Joely Tin. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
