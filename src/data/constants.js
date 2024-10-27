@@ -7,7 +7,7 @@ export const Bio = {
     "I am a motivated individual, always eager to take on new challenges. Known as a quick-learner, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things!",
   github: "https://github.com/joelytin",
   resume:
-    "https://drive.google.com/file/d/1yMfE9er-tTyCUsCO1rI4IxoWidbcOrgB/view?usp=sharing",
+    "https://drive.google.com/file/d/1IiAzQN2RWSpQjMLfCeBf3BcZ900svEQV/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joelytin",
   //twitter:
   //insta: 
